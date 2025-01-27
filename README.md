@@ -1,2 +1,0 @@
-# gesture interactive playground
- 

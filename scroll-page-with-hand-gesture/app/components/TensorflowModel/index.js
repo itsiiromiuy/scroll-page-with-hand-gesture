@@ -1,7 +1,8 @@
 "use client";
 
-import * as tmPose from "@teachablemachine/pose";
+// import * as tmPose from "teachablemachine/pose";
 import { useState, useEffect, useRef } from "react";
+import * as tmPose from "@teachablemachine/pose";
 
 export default function TensorflowModel({ onPrediction }) {
   const [model, setModel] = useState(null);
